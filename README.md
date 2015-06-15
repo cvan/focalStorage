@@ -27,9 +27,7 @@ Because focalStorage uses async storage, it has an async API.
 It's otherwise exactly the same as the
 [Local Storage API](https://hacks.mozilla.org/2009/06/localstorage/).
 
-focalStorage relies on native [ES6 Promises](http://www.promisejs.org/), but
-[ships with an awesome polyfill](https://github.com/jakearchibald/ES6-Promises)
-for browsers that don't support ES6 Promises yet.
+focalStorage relies on native [ES6 Promises](http://www.promisejs.org/) (polyfilled by Babel, where unsupported).
 
 Don't expect a return value from calls to `focalStorage.getItem()`. Instead,
 use Promises:
