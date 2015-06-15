@@ -1,6 +1,6 @@
 {
   "name": "focalStorage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a Promise-based, localStorage-like wrapper around IndexedDB",
   "main": "dist/focalStorage.js",
   "browser": "src/focalStorage.js",
